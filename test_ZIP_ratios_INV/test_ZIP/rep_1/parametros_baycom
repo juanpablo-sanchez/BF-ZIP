@@ -1,0 +1,14 @@
+dat                 #fichero de datos (caracter, factores fijos, factores aleatorios, animal=pedigree) 
+ped                 #fichero de pedigree 
+600                 #numero de datos en fichero datos 
+620                 #numero de animales en fichero pedigree
+5                   #numero de factores fijos y aleatorios (excepto el genético). Tienen que venir primero los fijos y luego los aleatorios (como en el fichero de datos)
+3 3 2 50 100        #niveles de los fijos y aleatorios   
+0.0 0.0 0.0 0.2 0.1 #ratios de varianza (si son fijos=0)
+10.0                #varianza fenotipica
+0.3                 #heredabilidad
+0.5                 #p=prob de venir de Possion
+2.0                 #DT normal para general proposal en el MH para log(lambda)
+1000      #nround     
+100      #burnin
+5                   #n_procesadores

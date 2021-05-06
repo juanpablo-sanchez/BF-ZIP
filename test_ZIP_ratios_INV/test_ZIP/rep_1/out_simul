@@ -1,0 +1,130 @@
+
+R version 4.0.4 (2021-02-15) -- "Lost Library Book"
+Copyright (C) 2021 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R es un software libre y viene sin GARANTIA ALGUNA.
+Usted puede redistribuirlo bajo ciertas circunstancias.
+Escriba 'license()' o 'licence()' para detalles de distribucion.
+
+R es un proyecto colaborativo con muchos contribuyentes.
+Escriba 'contributors()' para obtener más información y
+'citation()' para saber cómo citar R o paquetes de R en publicaciones.
+
+Escriba 'demo()' para demostraciones, 'help()' para el sistema on-line de ayuda,
+o 'help.start()' para abrir el sistema de ayuda HTML con su navegador.
+Escriba 'q()' para salir de R.
+
+> sires  <-1:5
+> dams   <-6:20 
+> n_sires<-length(sires)
+> n_dams <-length(dams)
+> n_hijos <-5
+> parejas <-cbind(sort(rep(sires,n_dams)),rep(dams,n_sires))
+> hijos1  <-rbind(rbind(rbind(parejas,parejas),parejas),parejas)
+> n<-dim(hijos1)[1]
+> id1<-(1:n)+20
+> sex1     <-sample(1:2,n,replace=TRUE)
+> ped1<-cbind(id1,hijos1,sex1)
+> ped0<-cbind(c(sires,dams),0,0,c(rep(1,n_sires),rep(2,n_dams)))
+> #####
+> sires<-sample(id1[sex1==1],n_sires) 
+> dams <-sample(id1[sex1==2],n_dams)
+> n_sires<-length(sires)
+> n_dams <-length(dams)
+> n_hijos <-5
+> parejas <-cbind(sort(rep(sires,n_dams)),rep(dams,n_sires))
+> hijos2  <-rbind(rbind(rbind(parejas,parejas),parejas),parejas)
+> n<-dim(hijos2)[1]
+> id2<-(1:n)+max(id1)
+> sex2     <-sample(1:2,n,replace=TRUE)
+> ped2<-cbind(id2,hijos2,sex2)
+> 
+> ped<-rbind(ped0,ped1,ped2)
+> #################
+> 
+> Vp<-10
+> h2<-0.3
+> c2<-0.1
+> j2<-0.15
+> 
+> G0<-h2*Vp
+> 
+> G_eff   <-                                    rnorm(dim(ped0)[1]   ,0,sqrt(G0)    )
+> G_eff_i <-(G_eff[ped1[,2]]+G_eff[ped1[,3]])/2+rnorm(dim(ped1)[1]   ,0,sqrt(0.5*G0))
+> G_eff   <-c(G_eff,G_eff_i)
+> G_eff_i <-(G_eff[ped2[,2]]+G_eff[ped2[,3]])/2+rnorm(dim(ped2)[1]   ,0,sqrt(0.5*G0))
+> G_eff   <-c(G_eff,G_eff_i)
+> 
+> 
+> ##################################################
+> n<-dim(ped1)[1]+dim(ped2)[1]
+> R0<-(1-h2-c2-j2)*Vp
+> E_eff <-rnorm(n       ,0,sqrt(R0))
+> ##################################################
+> sol_Trat  <-c(0,0.1,0.2) 
+> sol_banda <-c(0,1,-2) 
+> sol_medida<-c(0,-2)                   
+> 
+> sol_Trat
+[1] 0.0 0.1 0.2
+> sol_banda
+[1]  0  1 -2
+> sol_medida
+[1]  0 -2
+> 
+> ncamadas<-50
+> C0<-c2*Vp
+> sol_camada<-rnorm(ncamadas,0,sqrt(C0))
+> 
+> njaulas<-100
+> J0<-j2*Vp
+> sol_jaulas<-rnorm(njaulas,0,sqrt(J0))
+> 
+> nTrat   <-length(sol_Trat)
+> nbanda  <-length(sol_banda)
+> nmedida <-length(sol_medida)
+> 
+> 
+> ################################################
+> 
+> var(G_eff)
+[1] 2.241448
+> var(E_eff)
+[1] 4.245899
+> var(sol_camada)
+[1] 0.7773136
+> var(sol_jaulas)
+[1] 1.873598
+> 
+> 
+> Trat  <-sample(1:nTrat    ,n,replace=TRUE)
+> banda <-sample(1:nbanda   ,n,replace=TRUE)
+> medida<-sample(1:nmedida  ,n,replace=TRUE)
+> camada<-sample(1:ncamadas ,n,replace=TRUE)
+> jaulas<-sample(1:njaulas  ,n,replace=TRUE)
+> 
+> T_ind<-rep(0,n)
+> 
+> T_ind<-sol_medida[medida] + 
++        sol_banda[banda]   + 
++        sol_Trat[Trat]     +
++        sol_camada[camada] +
++        sol_jaulas[jaulas]   +
++        G_eff[ c(ped1[,1],ped2[,1]) ] +
++        E_eff
+> 
+> 
+> 
+> p<-0.6 # p es la probabilidad del 1 
+> 
+> 
+> ZIP<-ifelse(sample(x=0:1,size=n,prob=c(1-p,p),replace=TRUE)==0 , 0, rpois(n, lambda = exp(T_ind)))
+> 
+> d<-cbind(ZIP,Trat,banda,medida,camada,jaulas,c(ped1[,1],ped2[,1]),T_ind) 
+> 
+> ped0<-ped
+> 
+> write.table( d              ,'dat',col.names=FALSE,row.names=FALSE,quote=FALSE,na="0")
+> write.table( ped[,c(1,2,3)] ,'ped',col.names=FALSE,row.names=FALSE,quote=FALSE,na="0")
+> 

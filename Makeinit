@@ -1,0 +1,21 @@
+f90 = ifort
+optf90 = -O3 -heap-arrays
+optf77 = -O3 -heap-arrays
+optdir = -I
+mkl = -mkl -openmp -parallel 
+openmp = -openmp
+fpp = -fpp
+parallel = -parallel
+linkopt =
+
+#  NOTE: Please uncomment the following line to produce
+#        a binary statically linked to MKL.
+#linkopt = -static-intel
+
+#  DEBUG: Please uncomment the following 2 lines when you
+#         perform debugging the programs. This options make
+#         programs very slow. Use it just for checks.
+#optf90 =  -traceback -check all -CB -warn unused
+#optf77 =  -traceback -check all -CB -warn unused
+
+

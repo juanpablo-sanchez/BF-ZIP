@@ -1,0 +1,831 @@
+ FICHERO DE DATOS
+ dat                                               
+ FICHERO DE PEDIGREE
+ ped                                               
+ # registros en datos
+         600
+ # individuos en ped1igree
+         620
+ # de efectos fijos y aleatorios 
+           5
+ niveles de los efectos (excluyendo al genético) 
+           3           3           2          50         100
+ niveles acumulados de los efectos (excluyendo al genético) 
+           3           6           8          58         158
+ Valor inicial para los ratios de las varianzas sobre la varianza fenotipica
+  0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+  0.200000000000000       0.100000000000000     
+ Valor inicial para varianza Fenotipica
+   10.0000000000000     
+ Valor inicial para h2 
+  0.300000000000000     
+ Valor inicial para p 
+  0.500000000000000     
+ Desviación tipica distribución de generación de candidatos para M-H log(lamb
+ da)) 
+   2.00000000000000     
+ # de iteraciones 
+        1000
+ # de burnin 
+         100
+ # de procesadores
+           5
+           3           8         100
+          24           5
+ 
+ *--------------------------------------------------------------*
+ *                  Dist Version 1.000                    *
+ *--------------------------------------------------------------*
+ *             Optimized OpenMP Version 1 -  5 threads            *
+ Creando A...
+ iteración ---->           1
+    Inverse LAPACK MKL dpotrf/i  #threads=    5    5 Elapsed omp_get_time:     0.0154
+ Evaluaciones promedio por l_lambda:   3.256667    
+                          p_estrella/evaluaciones:    -0.0979         18
+                                               vp:   12.4089
+    Inverse LAPACK MKL dpotrf/i  #threads=    5    5 Elapsed omp_get_time:     0.0079
+                                  h2/evaluaciones:    0.4229         17
+                         ratio/valor/evaluaciones:         4     0.0676         17
+                         ratio/valor/evaluaciones:         5     0.1803         17
+ iteración ---->           2
+ Evaluaciones promedio por l_lambda:   3.586667    
+                          p_estrella/evaluaciones:    -0.4702          9
+                                               vp:   11.3471
+                                  h2/evaluaciones:    0.2013          8
+                         ratio/valor/evaluaciones:         4     0.1814          8
+                         ratio/valor/evaluaciones:         5     0.2329          8
+ iteración ---->           3
+ Evaluaciones promedio por l_lambda:   2.418333    
+                          p_estrella/evaluaciones:    -0.2453         24
+                                               vp:   11.9492
+                                  h2/evaluaciones:    0.2404         94
+                         ratio/valor/evaluaciones:         4     0.1965         94
+                         ratio/valor/evaluaciones:         5     0.1859         94
+ iteración ---->           4
+ Evaluaciones promedio por l_lambda:   2.203333    
+                          p_estrella/evaluaciones:    -0.2921          3
+                                               vp:   10.9792
+                                  h2/evaluaciones:    0.3879        102
+                         ratio/valor/evaluaciones:         4     0.1496        102
+                         ratio/valor/evaluaciones:         5     0.1946        102
+ iteración ---->           5
+ Evaluaciones promedio por l_lambda:   2.495000    
+                          p_estrella/evaluaciones:    -0.3170         19
+                                               vp:   11.8710
+                                  h2/evaluaciones:    0.3201         95
+                         ratio/valor/evaluaciones:         4     0.1436         95
+                         ratio/valor/evaluaciones:         5     0.2877         95
+ iteración ---->           6
+ Evaluaciones promedio por l_lambda:   2.726667    
+                          p_estrella/evaluaciones:    -0.2874         42
+                                               vp:   12.3182
+                                  h2/evaluaciones:    0.4602         20
+                         ratio/valor/evaluaciones:         4     0.1312         20
+                         ratio/valor/evaluaciones:         5     0.1912         20
+ iteración ---->           7
+ Evaluaciones promedio por l_lambda:   2.533333    
+                          p_estrella/evaluaciones:    -0.2173          8
+                                               vp:   11.4170
+                                  h2/evaluaciones:    0.2949        102
+                         ratio/valor/evaluaciones:         4     0.1561        102
+                         ratio/valor/evaluaciones:         5     0.2946        102
+ iteración ---->           8
+ Evaluaciones promedio por l_lambda:   2.315000    
+                          p_estrella/evaluaciones:    -0.5095         15
+                                               vp:   11.7593
+                                  h2/evaluaciones:    0.2800          3
+                         ratio/valor/evaluaciones:         4     0.2782          3
+                         ratio/valor/evaluaciones:         5     0.2063          3
+ iteración ---->           9
+ Evaluaciones promedio por l_lambda:   3.113333    
+                          p_estrella/evaluaciones:    -0.5435         15
+                                               vp:   13.0768
+                                  h2/evaluaciones:    0.3869        232
+                         ratio/valor/evaluaciones:         4     0.2613        232
+                         ratio/valor/evaluaciones:         5     0.2131        232
+ iteración ---->          10
+ Evaluaciones promedio por l_lambda:   2.331667    
+                          p_estrella/evaluaciones:    -0.7391         34
+                                               vp:   12.1528
+                                  h2/evaluaciones:    0.2932         35
+                         ratio/valor/evaluaciones:         4     0.2556         35
+                         ratio/valor/evaluaciones:         5     0.2318         35
+ iteración ---->          11
+ Evaluaciones promedio por l_lambda:   2.453333    
+                          p_estrella/evaluaciones:    -0.6145         31
+                                               vp:   11.2906
+                                  h2/evaluaciones:    0.3132          4
+                         ratio/valor/evaluaciones:         4     0.2169          4
+                         ratio/valor/evaluaciones:         5     0.2941          4
+ iteración ---->          12
+ Evaluaciones promedio por l_lambda:   2.545000    
+                          p_estrella/evaluaciones:    -0.5795          5
+                                               vp:   11.9122
+                                  h2/evaluaciones:    0.3404        101
+                         ratio/valor/evaluaciones:         4     0.2763        101
+                         ratio/valor/evaluaciones:         5     0.2462        101
+ iteración ---->          13
+ Evaluaciones promedio por l_lambda:   3.098333    
+                          p_estrella/evaluaciones:    -0.4940         11
+                                               vp:   11.9465
+                                  h2/evaluaciones:    0.3551         17
+                         ratio/valor/evaluaciones:         4     0.1278         17
+                         ratio/valor/evaluaciones:         5     0.3701         17
+ iteración ---->          14
+ Evaluaciones promedio por l_lambda:   3.193333    
+                          p_estrella/evaluaciones:    -0.5450          4
+                                               vp:   11.1924
+                                  h2/evaluaciones:    0.4056        112
+                         ratio/valor/evaluaciones:         4     0.1773        112
+                         ratio/valor/evaluaciones:         5     0.3316        112
+ iteración ---->          15
+ Evaluaciones promedio por l_lambda:   2.503333    
+                          p_estrella/evaluaciones:    -0.7419         31
+                                               vp:   13.4363
+                                  h2/evaluaciones:    0.3285        189
+                         ratio/valor/evaluaciones:         4     0.1326        189
+                         ratio/valor/evaluaciones:         5     0.4234        189
+ iteración ---->          16
+ Evaluaciones promedio por l_lambda:   2.290000    
+                          p_estrella/evaluaciones:    -0.4923         46
+                                               vp:   12.9033
+                                  h2/evaluaciones:    0.6258         23
+                         ratio/valor/evaluaciones:         4     0.0938         23
+                         ratio/valor/evaluaciones:         5     0.2423         23
+ iteración ---->          17
+ Evaluaciones promedio por l_lambda:   2.898333    
+                          p_estrella/evaluaciones:    -0.0952         10
+                                               vp:   13.2716
+                                  h2/evaluaciones:    0.4866        144
+                         ratio/valor/evaluaciones:         4     0.1378        144
+                         ratio/valor/evaluaciones:         5     0.2929        144
+ iteración ---->          18
+ Evaluaciones promedio por l_lambda:   2.491667    
+                          p_estrella/evaluaciones:    -0.5234          8
+                                               vp:   12.6016
+                                  h2/evaluaciones:    0.3457          7
+                         ratio/valor/evaluaciones:         4     0.2016          7
+                         ratio/valor/evaluaciones:         5     0.2378          7
+ iteración ---->          19
+ Evaluaciones promedio por l_lambda:   2.575000    
+                          p_estrella/evaluaciones:    -0.4681         34
+                                               vp:   13.0253
+                                  h2/evaluaciones:    0.2430        206
+                         ratio/valor/evaluaciones:         4     0.1894        206
+                         ratio/valor/evaluaciones:         5     0.3533        206
+ iteración ---->          20
+ Evaluaciones promedio por l_lambda:   2.618333    
+                          p_estrella/evaluaciones:    -0.4286         20
+                                               vp:   14.5616
+                                  h2/evaluaciones:    0.3664        157
+                         ratio/valor/evaluaciones:         4     0.1023        157
+                         ratio/valor/evaluaciones:         5     0.3462        157
+ iteración ---->          21
+ Evaluaciones promedio por l_lambda:   2.811667    
+                          p_estrella/evaluaciones:    -0.2464          9
+                                               vp:   12.5534
+                                  h2/evaluaciones:    0.1902         31
+                         ratio/valor/evaluaciones:         4     0.1696         31
+                         ratio/valor/evaluaciones:         5     0.3401         31
+ iteración ---->          22
+ Evaluaciones promedio por l_lambda:   2.211667    
+                          p_estrella/evaluaciones:    -0.2535         11
+                                               vp:   12.0405
+                                  h2/evaluaciones:    0.2680         17
+                         ratio/valor/evaluaciones:         4     0.1171         17
+                         ratio/valor/evaluaciones:         5     0.3987         17
+ iteración ---->          23
+ Evaluaciones promedio por l_lambda:   2.243333    
+                          p_estrella/evaluaciones:    -0.1222        102
+                                               vp:   12.6198
+                                  h2/evaluaciones:    0.2622         17
+                         ratio/valor/evaluaciones:         4     0.1818         17
+                         ratio/valor/evaluaciones:         5     0.2928         17
+ iteración ---->          24
+ Evaluaciones promedio por l_lambda:   2.330000    
+                          p_estrella/evaluaciones:    -0.1542          3
+                                               vp:   11.0666
+                                  h2/evaluaciones:    0.3677          4
+                         ratio/valor/evaluaciones:         4     0.1502          4
+                         ratio/valor/evaluaciones:         5     0.2475          4
+ iteración ---->          25
+ Evaluaciones promedio por l_lambda:   2.795000    
+                          p_estrella/evaluaciones:    -0.6784          4
+                                               vp:   12.1339
+                                  h2/evaluaciones:    0.2499          9
+                         ratio/valor/evaluaciones:         4     0.0445          9
+                         ratio/valor/evaluaciones:         5     0.4063          9
+ iteración ---->          26
+ Evaluaciones promedio por l_lambda:   2.873333    
+                          p_estrella/evaluaciones:    -0.1057         13
+                                               vp:   12.0115
+                                  h2/evaluaciones:    0.1849         14
+                         ratio/valor/evaluaciones:         4     0.1295         14
+                         ratio/valor/evaluaciones:         5     0.3966         14
+ iteración ---->          27
+ Evaluaciones promedio por l_lambda:   2.585000    
+                          p_estrella/evaluaciones:    -0.7127          3
+                                               vp:   12.0761
+                                  h2/evaluaciones:    0.3120          1
+                         ratio/valor/evaluaciones:         4     0.1931          1
+                         ratio/valor/evaluaciones:         5     0.2625          1
+ iteración ---->          28
+ Evaluaciones promedio por l_lambda:   2.570000    
+                          p_estrella/evaluaciones:    -0.0928          1
+                                               vp:   13.2189
+                                  h2/evaluaciones:    0.2363         55
+                         ratio/valor/evaluaciones:         4     0.1521         55
+                         ratio/valor/evaluaciones:         5     0.3988         55
+ iteración ---->          29
+ Evaluaciones promedio por l_lambda:   2.500000    
+                          p_estrella/evaluaciones:    -0.2867          4
+                                               vp:   12.7276
+                                  h2/evaluaciones:    0.2536         68
+                         ratio/valor/evaluaciones:         4     0.0716         68
+                         ratio/valor/evaluaciones:         5     0.4643         68
+ iteración ---->          30
+ Evaluaciones promedio por l_lambda:   2.420000    
+                          p_estrella/evaluaciones:    -0.4298          6
+                                               vp:   13.2541
+                                  h2/evaluaciones:    0.3609         46
+                         ratio/valor/evaluaciones:         4     0.1894         46
+                         ratio/valor/evaluaciones:         5     0.3009         46
+ iteración ---->          31
+ Evaluaciones promedio por l_lambda:   2.348333    
+                          p_estrella/evaluaciones:    -0.3041         18
+                                               vp:   12.7395
+                                  h2/evaluaciones:    0.2280         11
+                         ratio/valor/evaluaciones:         4     0.1426         11
+                         ratio/valor/evaluaciones:         5     0.3896         11
+ iteración ---->          32
+ Evaluaciones promedio por l_lambda:   3.598333    
+                          p_estrella/evaluaciones:    -0.4362         10
+                                               vp:   11.8831
+                                  h2/evaluaciones:    0.2362        114
+                         ratio/valor/evaluaciones:         4     0.1938        114
+                         ratio/valor/evaluaciones:         5     0.2978        114
+ iteración ---->          33
+ Evaluaciones promedio por l_lambda:   3.276667    
+                          p_estrella/evaluaciones:    -0.0540         15
+                                               vp:   11.9009
+                                  h2/evaluaciones:    0.4290         52
+                         ratio/valor/evaluaciones:         4     0.1500         52
+                         ratio/valor/evaluaciones:         5     0.2549         52
+ iteración ---->          34
+ Evaluaciones promedio por l_lambda:   2.603333    
+                          p_estrella/evaluaciones:    -0.0158         15
+                                               vp:   11.8367
+                                  h2/evaluaciones:    0.6045         23
+                         ratio/valor/evaluaciones:         4     0.0921         23
+                         ratio/valor/evaluaciones:         5     0.2443         23
+ iteración ---->          35
+ Evaluaciones promedio por l_lambda:   2.341667    
+                          p_estrella/evaluaciones:    -0.2143         23
+                                               vp:   13.2354
+                                  h2/evaluaciones:    0.2930         20
+                         ratio/valor/evaluaciones:         4     0.1807         20
+                         ratio/valor/evaluaciones:         5     0.3810         20
+ iteración ---->          36
+ Evaluaciones promedio por l_lambda:   2.890000    
+                          p_estrella/evaluaciones:    -0.2781          1
+                                               vp:   14.9702
+                                  h2/evaluaciones:    0.3214        108
+                         ratio/valor/evaluaciones:         4     0.0966        108
+                         ratio/valor/evaluaciones:         5     0.4564        108
+ iteración ---->          37
+ Evaluaciones promedio por l_lambda:   2.221667    
+                          p_estrella/evaluaciones:    -0.2037         28
+                                               vp:   14.2630
+                                  h2/evaluaciones:    0.2751         36
+                         ratio/valor/evaluaciones:         4     0.2263         36
+                         ratio/valor/evaluaciones:         5     0.3253         36
+ iteración ---->          38
+ Evaluaciones promedio por l_lambda:   2.218333    
+                          p_estrella/evaluaciones:     0.0185         29
+                                               vp:   13.1423
+                                  h2/evaluaciones:    0.3421         15
+                         ratio/valor/evaluaciones:         4     0.1953         15
+                         ratio/valor/evaluaciones:         5     0.2531         15
+ iteración ---->          39
+ Evaluaciones promedio por l_lambda:   2.880000    
+                          p_estrella/evaluaciones:    -0.5630         30
+                                               vp:   13.0127
+                                  h2/evaluaciones:    0.2080         54
+                         ratio/valor/evaluaciones:         4     0.1049         54
+                         ratio/valor/evaluaciones:         5     0.3904         54
+ iteración ---->          40
+ Evaluaciones promedio por l_lambda:   3.305000    
+                          p_estrella/evaluaciones:     0.2495         24
+                                               vp:   12.3331
+                                  h2/evaluaciones:    0.1860         97
+                         ratio/valor/evaluaciones:         4     0.1997         97
+                         ratio/valor/evaluaciones:         5     0.3004         97
+ iteración ---->          41
+ Evaluaciones promedio por l_lambda:   3.603333    
+                          p_estrella/evaluaciones:    -0.3587         35
+                                               vp:   12.6357
+                                  h2/evaluaciones:    0.2411          9
+                         ratio/valor/evaluaciones:         4     0.1749          9
+                         ratio/valor/evaluaciones:         5     0.3300          9
+ iteración ---->          42
+ Evaluaciones promedio por l_lambda:   3.863333    
+                          p_estrella/evaluaciones:    -0.3927         30
+                                               vp:   13.1664
+                                  h2/evaluaciones:    0.3701        181
+                         ratio/valor/evaluaciones:         4     0.1071        181
+                         ratio/valor/evaluaciones:         5     0.3586        181
+ iteración ---->          43
+ Evaluaciones promedio por l_lambda:   2.666667    
+                          p_estrella/evaluaciones:    -0.4937         37
+                                               vp:   13.7400
+                                  h2/evaluaciones:    0.2813        107
+                         ratio/valor/evaluaciones:         4     0.2171        107
+                         ratio/valor/evaluaciones:         5     0.2406        107
+ iteración ---->          44
+ Evaluaciones promedio por l_lambda:   2.541667    
+                          p_estrella/evaluaciones:    -0.2321          7
+                                               vp:   13.8237
+                                  h2/evaluaciones:    0.4552          7
+                         ratio/valor/evaluaciones:         4     0.0644          7
+                         ratio/valor/evaluaciones:         5     0.2767          7
+ iteración ---->          45
+ Evaluaciones promedio por l_lambda:   2.281667    
+                          p_estrella/evaluaciones:    -0.4517         18
+                                               vp:   12.2825
+                                  h2/evaluaciones:    0.3340         64
+                         ratio/valor/evaluaciones:         4     0.1170         64
+                         ratio/valor/evaluaciones:         5     0.2705         64
+ iteración ---->          46
+ Evaluaciones promedio por l_lambda:   2.545000    
+                          p_estrella/evaluaciones:     0.0498         14
+                                               vp:   12.4979
+                                  h2/evaluaciones:    0.3399        165
+                         ratio/valor/evaluaciones:         4     0.0625        165
+                         ratio/valor/evaluaciones:         5     0.4237        165
+ iteración ---->          47
+ Evaluaciones promedio por l_lambda:   2.608333    
+                          p_estrella/evaluaciones:    -0.3971         11
+                                               vp:   13.3819
+                                  h2/evaluaciones:    0.2979         10
+                         ratio/valor/evaluaciones:         4     0.1428         10
+                         ratio/valor/evaluaciones:         5     0.3113         10
+ iteración ---->          48
+ Evaluaciones promedio por l_lambda:   2.398333    
+                          p_estrella/evaluaciones:    -0.0660         13
+                                               vp:   13.3242
+                                  h2/evaluaciones:    0.3321         20
+                         ratio/valor/evaluaciones:         4     0.0813         20
+                         ratio/valor/evaluaciones:         5     0.3606         20
+ iteración ---->          49
+ Evaluaciones promedio por l_lambda:   2.845000    
+                          p_estrella/evaluaciones:     0.1876         46
+                                               vp:   12.3666
+                                  h2/evaluaciones:    0.2908          1
+                         ratio/valor/evaluaciones:         4     0.1526          1
+                         ratio/valor/evaluaciones:         5     0.3108          1
+ iteración ---->          50
+ Evaluaciones promedio por l_lambda:   2.900000    
+                          p_estrella/evaluaciones:     0.0097          9
+                                               vp:   13.5326
+                                  h2/evaluaciones:    0.2377        139
+                         ratio/valor/evaluaciones:         4     0.1519        139
+                         ratio/valor/evaluaciones:         5     0.3702        139
+ iteración ---->          51
+ Evaluaciones promedio por l_lambda:   3.241667    
+                          p_estrella/evaluaciones:    -0.1832         71
+                                               vp:   13.7392
+                                  h2/evaluaciones:    0.1330         90
+                         ratio/valor/evaluaciones:         4     0.2505         90
+                         ratio/valor/evaluaciones:         5     0.3271         90
+ iteración ---->          52
+ Evaluaciones promedio por l_lambda:   2.711667    
+                          p_estrella/evaluaciones:     0.0218         40
+                                               vp:   12.7852
+                                  h2/evaluaciones:    0.1885          9
+                         ratio/valor/evaluaciones:         4     0.1273          9
+                         ratio/valor/evaluaciones:         5     0.3839          9
+ iteración ---->          53
+ Evaluaciones promedio por l_lambda:   3.331667    
+                          p_estrella/evaluaciones:    -0.1053         13
+                                               vp:   13.3502
+                                  h2/evaluaciones:    0.2714         26
+                         ratio/valor/evaluaciones:         4     0.1819         26
+                         ratio/valor/evaluaciones:         5     0.3037         26
+ iteración ---->          54
+ Evaluaciones promedio por l_lambda:   3.443333    
+                          p_estrella/evaluaciones:    -0.2425         29
+                                               vp:   13.0211
+                                  h2/evaluaciones:    0.3034        237
+                         ratio/valor/evaluaciones:         4     0.0979        237
+                         ratio/valor/evaluaciones:         5     0.3605        237
+ iteración ---->          55
+ Evaluaciones promedio por l_lambda:   2.225000    
+                          p_estrella/evaluaciones:    -0.2474         66
+                                               vp:   13.6205
+                                  h2/evaluaciones:    0.3073         38
+                         ratio/valor/evaluaciones:         4     0.0884         38
+                         ratio/valor/evaluaciones:         5     0.4251         38
+ iteración ---->          56
+ Evaluaciones promedio por l_lambda:   2.100000    
+                          p_estrella/evaluaciones:     0.0257          2
+                                               vp:   14.4174
+                                  h2/evaluaciones:    0.2374        138
+                         ratio/valor/evaluaciones:         4     0.0906        138
+                         ratio/valor/evaluaciones:         5     0.4500        138
+ iteración ---->          57
+ Evaluaciones promedio por l_lambda:   3.231667    
+                          p_estrella/evaluaciones:    -0.3136          7
+                                               vp:   13.7611
+                                  h2/evaluaciones:    0.3585         31
+                         ratio/valor/evaluaciones:         4     0.0566         31
+                         ratio/valor/evaluaciones:         5     0.3922         31
+ iteración ---->          58
+ Evaluaciones promedio por l_lambda:   2.523333    
+                          p_estrella/evaluaciones:     0.0500         17
+                                               vp:   12.7328
+                                  h2/evaluaciones:    0.2515        470
+                         ratio/valor/evaluaciones:         4     0.0744        470
+                         ratio/valor/evaluaciones:         5     0.4639        470
+ iteración ---->          59
+ Evaluaciones promedio por l_lambda:   2.643333    
+                          p_estrella/evaluaciones:    -0.3647         26
+                                               vp:   14.0779
+                                  h2/evaluaciones:    0.3854         42
+                         ratio/valor/evaluaciones:         4     0.0819         42
+                         ratio/valor/evaluaciones:         5     0.3771         42
+ iteración ---->          60
+ Evaluaciones promedio por l_lambda:   3.301667    
+                          p_estrella/evaluaciones:    -0.2427          4
+                                               vp:   14.3335
+                                  h2/evaluaciones:    0.3721         75
+                         ratio/valor/evaluaciones:         4     0.1085         75
+                         ratio/valor/evaluaciones:         5     0.4056         75
+ iteración ---->          61
+ Evaluaciones promedio por l_lambda:   4.603333    
+                          p_estrella/evaluaciones:    -0.2238         22
+                                               vp:   14.7880
+                                  h2/evaluaciones:    0.3229         82
+                         ratio/valor/evaluaciones:         4     0.0941         82
+                         ratio/valor/evaluaciones:         5     0.4450         82
+ iteración ---->          62
+ Evaluaciones promedio por l_lambda:   3.118333    
+                          p_estrella/evaluaciones:    -0.3062         17
+                                               vp:   13.6003
+                                  h2/evaluaciones:    0.3976        300
+                         ratio/valor/evaluaciones:         4     0.0991        300
+                         ratio/valor/evaluaciones:         5     0.3919        300
+ iteración ---->          63
+ Evaluaciones promedio por l_lambda:   2.736667    
+                          p_estrella/evaluaciones:    -0.2352          5
+                                               vp:   14.8230
+                                  h2/evaluaciones:    0.4655         29
+                         ratio/valor/evaluaciones:         4     0.0910         29
+                         ratio/valor/evaluaciones:         5     0.3864         29
+ iteración ---->          64
+ Evaluaciones promedio por l_lambda:   3.220000    
+                          p_estrella/evaluaciones:    -0.1340         19
+                                               vp:   16.1399
+                                  h2/evaluaciones:    0.5977          2
+                         ratio/valor/evaluaciones:         4     0.0414          2
+                         ratio/valor/evaluaciones:         5     0.3608          2
+ iteración ---->          65
+ Evaluaciones promedio por l_lambda:   2.683333    
+                          p_estrella/evaluaciones:    -0.2188         14
+                                               vp:   15.0636
+                                  h2/evaluaciones:    0.3686         27
+                         ratio/valor/evaluaciones:         4     0.0339         27
+                         ratio/valor/evaluaciones:         5     0.4632         27
+ iteración ---->          66
+ Evaluaciones promedio por l_lambda:   3.060000    
+                          p_estrella/evaluaciones:    -0.1898          9
+                                               vp:   14.6355
+                                  h2/evaluaciones:    0.4158        138
+                         ratio/valor/evaluaciones:         4     0.0684        138
+                         ratio/valor/evaluaciones:         5     0.4284        138
+ iteración ---->          67
+ Evaluaciones promedio por l_lambda:   3.005000    
+                          p_estrella/evaluaciones:    -0.1266         20
+                                               vp:   12.8372
+                                  h2/evaluaciones:    0.5381         18
+                         ratio/valor/evaluaciones:         4     0.0245         18
+                         ratio/valor/evaluaciones:         5     0.3750         18
+ iteración ---->          68
+ Evaluaciones promedio por l_lambda:   2.966667    
+                          p_estrella/evaluaciones:    -0.3220         25
+                                               vp:   13.0565
+                                  h2/evaluaciones:    0.4313        162
+                         ratio/valor/evaluaciones:         4     0.0711        162
+                         ratio/valor/evaluaciones:         5     0.3934        162
+ iteración ---->          69
+ Evaluaciones promedio por l_lambda:   3.413333    
+                          p_estrella/evaluaciones:    -0.0487          8
+                                               vp:   12.8337
+                                  h2/evaluaciones:    0.2564        120
+                         ratio/valor/evaluaciones:         4     0.0202        120
+                         ratio/valor/evaluaciones:         5     0.4631        120
+ iteración ---->          70
+ Evaluaciones promedio por l_lambda:   3.095000    
+                          p_estrella/evaluaciones:     0.0295         18
+                                               vp:   12.5336
+                                  h2/evaluaciones:    0.3906          3
+                         ratio/valor/evaluaciones:         4     0.0653          3
+                         ratio/valor/evaluaciones:         5     0.3593          3
+ iteración ---->          71
+ Evaluaciones promedio por l_lambda:   2.453333    
+                          p_estrella/evaluaciones:    -0.3424         40
+                                               vp:   11.8149
+                                  h2/evaluaciones:    0.2988        356
+                         ratio/valor/evaluaciones:         4     0.0330        356
+                         ratio/valor/evaluaciones:         5     0.4420        356
+ iteración ---->          72
+ Evaluaciones promedio por l_lambda:   3.041667    
+                          p_estrella/evaluaciones:    -0.4769          1
+                                               vp:   11.6762
+                                  h2/evaluaciones:    0.4740        185
+                         ratio/valor/evaluaciones:         4     0.0507        185
+                         ratio/valor/evaluaciones:         5     0.3354        185
+ iteración ---->          73
+ Evaluaciones promedio por l_lambda:   3.326667    
+                          p_estrella/evaluaciones:    -0.5256          2
+                                               vp:   11.3553
+                                  h2/evaluaciones:    0.4046         39
+                         ratio/valor/evaluaciones:         4     0.0674         39
+                         ratio/valor/evaluaciones:         5     0.3554         39
+ iteración ---->          74
+ Evaluaciones promedio por l_lambda:   3.521667    
+                          p_estrella/evaluaciones:     0.2562         23
+                                               vp:   11.8113
+                                  h2/evaluaciones:    0.3502         11
+                         ratio/valor/evaluaciones:         4     0.0447         11
+                         ratio/valor/evaluaciones:         5     0.4678         11
+ iteración ---->          75
+ Evaluaciones promedio por l_lambda:   2.580000    
+                          p_estrella/evaluaciones:     0.1198          9
+                                               vp:   11.2142
+                                  h2/evaluaciones:    0.4861         38
+                         ratio/valor/evaluaciones:         4     0.0679         38
+                         ratio/valor/evaluaciones:         5     0.3839         38
+ iteración ---->          76
+ Evaluaciones promedio por l_lambda:   2.661667    
+                          p_estrella/evaluaciones:     0.2627          8
+                                               vp:   12.7635
+                                  h2/evaluaciones:    0.4293         29
+                         ratio/valor/evaluaciones:         4     0.0743         29
+                         ratio/valor/evaluaciones:         5     0.4581         29
+ iteración ---->          77
+ Evaluaciones promedio por l_lambda:   2.698333    
+                          p_estrella/evaluaciones:    -0.1496          1
+                                               vp:   12.3319
+                                  h2/evaluaciones:    0.5081        354
+                         ratio/valor/evaluaciones:         4     0.0335        354
+                         ratio/valor/evaluaciones:         5     0.4397        354
+ iteración ---->          78
+ Evaluaciones promedio por l_lambda:   2.406667    
+                          p_estrella/evaluaciones:     0.1619         15
+                                               vp:   12.7035
+                                  h2/evaluaciones:    0.4792        297
+                         ratio/valor/evaluaciones:         4     0.0695        297
+                         ratio/valor/evaluaciones:         5     0.4328        297
+ iteración ---->          79
+ Evaluaciones promedio por l_lambda:   2.633333    
+                          p_estrella/evaluaciones:     0.2926         39
+                                               vp:   14.2162
+                                  h2/evaluaciones:    0.4719        567
+                         ratio/valor/evaluaciones:         4     0.0723        567
+                         ratio/valor/evaluaciones:         5     0.4381        567
+ iteración ---->          80
+ Evaluaciones promedio por l_lambda:   3.440000    
+                          p_estrella/evaluaciones:    -0.0244         12
+                                               vp:   12.7439
+                                  h2/evaluaciones:    0.3365        253
+                         ratio/valor/evaluaciones:         4     0.0908        253
+                         ratio/valor/evaluaciones:         5     0.4923        253
+ iteración ---->          81
+ Evaluaciones promedio por l_lambda:   2.863333    
+                          p_estrella/evaluaciones:     0.0025          5
+                                               vp:   13.6187
+                                  h2/evaluaciones:    0.4510        337
+                         ratio/valor/evaluaciones:         4     0.0692        337
+                         ratio/valor/evaluaciones:         5     0.4726        337
+ iteración ---->          82
+ Evaluaciones promedio por l_lambda:   2.688333    
+                          p_estrella/evaluaciones:    -0.1118         31
+                                               vp:   12.9451
+                                  h2/evaluaciones:    0.4900         89
+                         ratio/valor/evaluaciones:         4     0.0374         89
+                         ratio/valor/evaluaciones:         5     0.3961         89
+ iteración ---->          83
+ Evaluaciones promedio por l_lambda:   2.611667    
+                          p_estrella/evaluaciones:     0.1173         43
+                                               vp:   11.6997
+                                  h2/evaluaciones:    0.3008         33
+                         ratio/valor/evaluaciones:         4     0.0975         33
+                         ratio/valor/evaluaciones:         5     0.4878         33
+ iteración ---->          84
+ Evaluaciones promedio por l_lambda:   3.780000    
+                          p_estrella/evaluaciones:     0.2253         15
+                                               vp:   12.6538
+                                  h2/evaluaciones:    0.4670         30
+                         ratio/valor/evaluaciones:         4     0.0426         30
+                         ratio/valor/evaluaciones:         5     0.4771         30
+ iteración ---->          85
+ Evaluaciones promedio por l_lambda:   2.751667    
+                          p_estrella/evaluaciones:     0.1991         23
+                                               vp:   16.2074
+                                  h2/evaluaciones:    0.2943        223
+                         ratio/valor/evaluaciones:         4     0.0409        223
+                         ratio/valor/evaluaciones:         5     0.5826        223
+ iteración ---->          86
+ Evaluaciones promedio por l_lambda:   2.900000    
+                          p_estrella/evaluaciones:     0.0329         19
+                                               vp:   14.7309
+                                  h2/evaluaciones:    0.3364        111
+                         ratio/valor/evaluaciones:         4     0.0451        111
+                         ratio/valor/evaluaciones:         5     0.5590        111
+ iteración ---->          87
+ Evaluaciones promedio por l_lambda:   2.898333    
+                          p_estrella/evaluaciones:     0.3071          9
+                                               vp:   13.9915
+                                  h2/evaluaciones:    0.3412        939
+                         ratio/valor/evaluaciones:         4     0.0510        939
+                         ratio/valor/evaluaciones:         5     0.5583        939
+ iteración ---->          88
+ Evaluaciones promedio por l_lambda:   2.785000    
+                          p_estrella/evaluaciones:     0.3348         25
+                                               vp:   14.6367
+                                  h2/evaluaciones:    0.3927        532
+                         ratio/valor/evaluaciones:         4     0.0533        532
+                         ratio/valor/evaluaciones:         5     0.5295        532
+ iteración ---->          89
+ Evaluaciones promedio por l_lambda:   3.246667    
+                          p_estrella/evaluaciones:     0.0536          1
+                                               vp:   14.5668
+                                  h2/evaluaciones:    0.2262        545
+                         ratio/valor/evaluaciones:         4     0.0726        545
+                         ratio/valor/evaluaciones:         5     0.6268        545
+ iteración ---->          90
+ Evaluaciones promedio por l_lambda:   2.596667    
+                          p_estrella/evaluaciones:     0.0920          8
+                                               vp:   15.7946
+                                  h2/evaluaciones:    0.3530         26
+                         ratio/valor/evaluaciones:         4     0.0778         26
+                         ratio/valor/evaluaciones:         5     0.5320         26
+ iteración ---->          91
+ Evaluaciones promedio por l_lambda:   2.281667    
+                          p_estrella/evaluaciones:    -0.2826         13
+                                               vp:   13.0009
+                                  h2/evaluaciones:    0.2806        160
+                         ratio/valor/evaluaciones:         4     0.1228        160
+                         ratio/valor/evaluaciones:         5     0.5515        160
+ iteración ---->          92
+ Evaluaciones promedio por l_lambda:   3.208333    
+                          p_estrella/evaluaciones:     0.1379          5
+                                               vp:   14.3630
+                                  h2/evaluaciones:    0.2904         73
+                         ratio/valor/evaluaciones:         4     0.1096         73
+                         ratio/valor/evaluaciones:         5     0.5504         73
+ iteración ---->          93
+ Evaluaciones promedio por l_lambda:   3.046667    
+                          p_estrella/evaluaciones:    -0.0398         24
+                                               vp:   13.9912
+                                  h2/evaluaciones:    0.2952        111
+                         ratio/valor/evaluaciones:         4     0.1150        111
+                         ratio/valor/evaluaciones:         5     0.5466        111
+ iteración ---->          94
+ Evaluaciones promedio por l_lambda:   3.586667    
+                          p_estrella/evaluaciones:     0.1564          4
+                                               vp:   13.8246
+                                  h2/evaluaciones:    0.3189        370
+                         ratio/valor/evaluaciones:         4     0.1164        370
+                         ratio/valor/evaluaciones:         5     0.5187        370
+ iteración ---->          95
+ Evaluaciones promedio por l_lambda:   2.688333    
+                          p_estrella/evaluaciones:     0.0384         33
+                                               vp:   15.6161
+                                  h2/evaluaciones:    0.2170        330
+                         ratio/valor/evaluaciones:         4     0.1957        330
+                         ratio/valor/evaluaciones:         5     0.5277        330
+ iteración ---->          96
+ Evaluaciones promedio por l_lambda:   2.663333    
+                          p_estrella/evaluaciones:     0.2068         45
+                                               vp:   14.3496
+                                  h2/evaluaciones:    0.3126        193
+                         ratio/valor/evaluaciones:         4     0.2063        193
+                         ratio/valor/evaluaciones:         5     0.4564        193
+ iteración ---->          97
+ Evaluaciones promedio por l_lambda:   3.085000    
+                          p_estrella/evaluaciones:    -0.2240         13
+                                               vp:   15.2833
+                                  h2/evaluaciones:    0.2210         58
+                         ratio/valor/evaluaciones:         4     0.1387         58
+                         ratio/valor/evaluaciones:         5     0.5652         58
+ iteración ---->          98
+ Evaluaciones promedio por l_lambda:   2.676667    
+                          p_estrella/evaluaciones:     0.2422         20
+                                               vp:   15.5652
+                                  h2/evaluaciones:    0.2960        809
+                         ratio/valor/evaluaciones:         4     0.1149        809
+                         ratio/valor/evaluaciones:         5     0.5648        809
+ iteración ---->          99
+ Evaluaciones promedio por l_lambda:   2.718333    
+                          p_estrella/evaluaciones:    -0.0600         23
+                                               vp:   16.9706
+                                  h2/evaluaciones:    0.2707         39
+                         ratio/valor/evaluaciones:         4     0.0556         39
+                         ratio/valor/evaluaciones:         5     0.6381         39
+ iteración ---->         100
+ Evaluaciones promedio por l_lambda:   3.390000    
+                          p_estrella/evaluaciones:     0.0310         36
+                                               vp:   17.6587
+                                  h2/evaluaciones:    0.2566         56
+                         ratio/valor/evaluaciones:         4     0.0726         56
+                         ratio/valor/evaluaciones:         5     0.6366         56
+ iteración ---->         101
+ Evaluaciones promedio por l_lambda:   2.705000    
+                          p_estrella/evaluaciones:     0.1040         10
+                                               vp:   16.7237
+                                  h2/evaluaciones:    0.2478        179
+                         ratio/valor/evaluaciones:         4     0.0983        179
+                         ratio/valor/evaluaciones:         5     0.6045        179
+                               p(h2=0|y) / log[ p(h2=0|y,...)] para la iteracion        0.1446440E-57        -133.1808    
+                  ratio /p(ratio=0|y) / log[ p(ratio=0|y,...)] para la iteracion            4        0.1452517E-26        -61.79650    
+                  ratio /p(ratio=0|y) / log[ p(ratio=0|y,...)] para la iteracion            5        0.1625420-116        -268.9167    
+ iteración ---->         102
+ Evaluaciones promedio por l_lambda:   2.853333    
+                          p_estrella/evaluaciones:    -0.0884         20
+                                               vp:   16.6786
+                                  h2/evaluaciones:    0.2790       1002
+                         ratio/valor/evaluaciones:         4     0.0653       1002
+                         ratio/valor/evaluaciones:         5     0.6300       1002
+                               p(h2=0|y) / log[ p(h2=0|y,...)] para la iteracion        0.5838578E-54        -124.1847    
+                  ratio /p(ratio=0|y) / log[ p(ratio=0|y,...)] para la iteracion            4        0.1608945E-19        -44.88298    
+                  ratio /p(ratio=0|y) / log[ p(ratio=0|y,...)] para la iteracion            5        0.1210766-115        -266.2850    
+ iteración ---->         103
+ Evaluaciones promedio por l_lambda:   3.125000    
+                          p_estrella/evaluaciones:     0.0967          6
+                                               vp:   17.1438
+                                  h2/evaluaciones:    0.2212        117
+                         ratio/valor/evaluaciones:         4     0.0777        117
+                         ratio/valor/evaluaciones:         5     0.6550        117
+                               p(h2=0|y) / log[ p(h2=0|y,...)] para la iteracion        0.5537884E-54        -125.0455    
+                  ratio /p(ratio=0|y) / log[ p(ratio=0|y,...)] para la iteracion            4        0.1553598E-15        -35.30224    
+                  ratio /p(ratio=0|y) / log[ p(ratio=0|y,...)] para la iteracion            5        0.1307609-115        -266.6935    
+ iteración ---->         104
+ Evaluaciones promedio por l_lambda:   3.905000    
+                          p_estrella/evaluaciones:    -0.0656         13
+                                               vp:   18.3737
+                                  h2/evaluaciones:    0.2660       1070
+                         ratio/valor/evaluaciones:         4     0.0646       1070
+                         ratio/valor/evaluaciones:         5     0.6481       1070
+                               p(h2=0|y) / log[ p(h2=0|y,...)] para la iteracion        0.3876371E-51        -116.9943    
+                  ratio /p(ratio=0|y) / log[ p(ratio=0|y,...)] para la iteracion            4        0.1165251E-15        -45.31395    
+                  ratio /p(ratio=0|y) / log[ p(ratio=0|y,...)] para la iteracion            5        0.6949320-111        -254.5646    
+ iteración ---->         105
+ Evaluaciones promedio por l_lambda:   2.813333    
+                          p_estrella/evaluaciones:     0.1715         23
+                                               vp:   16.8899
+                                  h2/evaluaciones:    0.2055        304
+                         ratio/valor/evaluaciones:         4     0.1514        304
+                         ratio/valor/evaluaciones:         5     0.5859        304
+                               p(h2=0|y) / log[ p(h2=0|y,...)] para la iteracion        0.5051402E-50        -114.2661    
+                  ratio /p(ratio=0|y) / log[ p(ratio=0|y,...)] para la iteracion            4        0.9322007E-16        -67.90417    
+                  ratio /p(ratio=0|y) / log[ p(ratio=0|y,...)] para la iteracion            5        0.5559456-111        -279.5003    
+ iteración ---->         106
+ Evaluaciones promedio por l_lambda:   2.960000    
+                          p_estrella/evaluaciones:     0.2044         61
+                                               vp:   16.6857
+                                  h2/evaluaciones:    0.2588        405
+                         ratio/valor/evaluaciones:         4     0.0908        405
+                         ratio/valor/evaluaciones:         5     0.6166        405
+                               p(h2=0|y) / log[ p(h2=0|y,...)] para la iteracion        0.4212862E-50        -121.3355    
+                  ratio /p(ratio=0|y) / log[ p(ratio=0|y,...)] para la iteracion            4        0.7768339E-16        -56.58411    
+                  ratio /p(ratio=0|y) / log[ p(ratio=0|y,...)] para la iteracion            5        0.4632880-111        -276.3227    
+ iteración ---->         107
+ Evaluaciones promedio por l_lambda:   2.708333    
+                          p_estrella/evaluaciones:     0.0790         62
+                                               vp:   15.1626
+                                  h2/evaluaciones:    0.2258       3714
+                         ratio/valor/evaluaciones:         4     0.1110       3714
+                         ratio/valor/evaluaciones:         5     0.5968       3714
+                               p(h2=0|y) / log[ p(h2=0|y,...)] para la iteracion        0.5711033E-48        -109.1447    
+                  ratio /p(ratio=0|y) / log[ p(ratio=0|y,...)] para la iteracion            4        0.6658576E-16        -52.68895    
+                  ratio /p(ratio=0|y) / log[ p(ratio=0|y,...)] para la iteracion            5        0.3971040-111        -281.3038    
+ iteración ---->         108
+ Evaluaciones promedio por l_lambda:   2.978333    
+                          p_estrella/evaluaciones:     0.1384          4
+                                               vp:   17.5646
+                                  h2/evaluaciones:    0.2435         73
+                         ratio/valor/evaluaciones:         4     0.1145         73
+                         ratio/valor/evaluaciones:         5     0.5926         73
+                               p(h2=0|y) / log[ p(h2=0|y,...)] para la iteracion        0.4997185E-48        -121.1447    
+                  ratio /p(ratio=0|y) / log[ p(ratio=0|y,...)] para la iteracion            4        0.5826254E-16        -56.89598    
+                  ratio /p(ratio=0|y) / log[ p(ratio=0|y,...)] para la iteracion            5        0.3474660-111        -281.5513    
+ iteración ---->         109
+ Evaluaciones promedio por l_lambda:   2.808333    
+                          p_estrella/evaluaciones:    -0.1211          9
+                                               vp:   14.3259
+                                  h2/evaluaciones:    0.1933        132
+                         ratio/valor/evaluaciones:         4     0.1191        132
+                         ratio/valor/evaluaciones:         5     0.5906        132
+                               p(h2=0|y) / log[ p(h2=0|y,...)] para la iteracion        0.4442551E-48        -118.0322    
+                  ratio /p(ratio=0|y) / log[ p(ratio=0|y,...)] para la iteracion            4        0.5179414E-16        -44.50669    
