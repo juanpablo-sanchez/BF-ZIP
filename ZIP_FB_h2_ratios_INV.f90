@@ -379,7 +379,7 @@
         
         h2a=0.
         integral=0
-        den1=eval_conditional(h2=h2a,ratios=ratios_fact)  
+        den1=eval_ratios(h2=h2a,ratios=ratios_fact)  
         integral(0)=den1
         den0=den1
         
@@ -388,7 +388,7 @@
         do ij=1,nintegral
           h2a=h2a+diff
           if(h2a .gt. sum_ratios)exit
-          den1=eval_conditional(h2=h2a,ratios=ratios_fact)            
+          den1=eval_ratios(h2=h2a,ratios=ratios_fact)            
           integral(ij)=den1
         enddo
         c=maxval(integral)
@@ -426,7 +426,7 @@
            ratios_fact_a(k)=0.
              
             integral=0
-            den1=eval_conditional(h2=h2,ratios=ratios_fact_a)
+            den1=eval_ratios(h2=h2,ratios=ratios_fact_a)
             integral(0)=den1
             den0=den1
 
@@ -435,7 +435,7 @@
             do ij=1,nintegral
              ratios_fact_a(k)=ratios_fact_a(k)+diff
              if(ratios_fact_a(k) .gt. sum_ratios)exit
-             den1=eval_conditional(h2=h2,ratios=ratios_fact_a)
+             den1=eval_ratios(h2=h2,ratios=ratios_fact_a)
              integral(ij)=den1
             enddo
          
@@ -506,7 +506,7 @@
 function eval_l_lambda(l_lambda) result(densidad)
   real *8 :: densidad_ZIP1,densidad_ZIP2,l_lambda(:)
   real *8 :: densidad,densidad1
-  integer :: k,i,j,factorial
+  integer :: k,i,j
 
 
        
@@ -562,7 +562,7 @@ end function
   real *8 :: h2,ratios(:)
   real *8 :: densidad,log_det1,densidad1,log_prior
   real *8 :: densidad_ZIP1,densidad_ZIP2
-  integer :: i,j,factorial
+  integer :: i,j
  
         densidad1=0
         densidad =0
