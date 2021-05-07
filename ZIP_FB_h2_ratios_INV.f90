@@ -176,7 +176,7 @@
          if(io.ne.0)exit
          i=i+1
          y(i)=ys
-         l_lambda(i)=media_i
+         l_lambda(i)=0.0
          dat(i,:)=ilev
          do j=1,nfijos
           k=cum_nlev1(j-1)+ilev(j)
@@ -292,8 +292,7 @@
         b(7)=b(7)-b(7)
         b(8)=b(8)-b(7)
 
-        write(876,'(5000(f8.3,x) )' )b
-        write(888,'(5000(f8.3,x) )' )l_lambda
+
 !##############
 !c       muestreo  vp ,POSTERIOR 
 !##############
@@ -463,8 +462,8 @@
         enddo
                  
         write(68,'(i10,40  (g20.7,x))')ijk,p_estrella,vp,h2,ratios_fact,log_pcond_h2_0,log_pcond_ratios_0, pmar_h2_0, pmar_ratios_0      
-        write(69,'(    1000(g20.7,x))')(l_lambda(i),i=1,ndat)
-               
+        write(876,'(5000(f8.3,x) )' )b
+        write(888,'(5000(f8.3,x) )' )l_lambda       
        endif
               
         enddo
