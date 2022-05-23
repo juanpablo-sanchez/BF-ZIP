@@ -41,7 +41,3 @@ p_rec               # pedigree file
 
 
 
-
-
-
-
